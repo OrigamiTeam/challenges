@@ -1,4 +1,4 @@
-# jr-fullstack-challenge
+# fullstack-challenge
 
 Welcome to this fullstack React.js + Node.js (or Python or Elixir) programming challenge.
 
