@@ -1,13 +1,13 @@
-# fullstack-challenge
+# Fullstack-challenge
 
-Welcome to this fullstack React.js + Node.js (or Python or Elixir) programming challenge.
+Welcome to this fullstack Flutter + Elixir (or Python or Node.js) programming challenge.
 
 We kindly ask you to read all steps below with atention in order to maximize the chances of success.
 
 The task consists of developing an interaction with music playlists, respecting some rules accordingly to the plan payed by the user. The implementation is comprised of two applications:
 
-1) Web app in React.js
-2) Node.js or Python or Elixir backend
+1) Mobile app in Flutter
+2) Elixir or Node.js or Python backend
 
 ## Summary
 
@@ -26,7 +26,7 @@ The analysis of the code will consider the following facets in decrescent order 
 
 - Lack of bugs
 - Responsiveness
-- React coding principles (suggested reading: [Thinking in React](https://reactjs.org/docs/thinking-in-react.html))
+- Flutter coding principles (suggested reading: [Flutter: Best Practices and Tips]([https://reactjs.org/docs/thinking-in-react.html](https://medium.com/flutter-community/flutter-best-practices-and-tips-7c2782c9ebb5)))
 - Objectivity (good semantics, readability)
 - Decoupling
 - Extensibility
@@ -82,6 +82,9 @@ A backoffice is required for the `admin` to add new musics to the existing plans
 ### Clients Frontend
 
 The main frontend is for the clients, where they can sign-in, see all musics available in the system and define which musics belongs to his/her playlist. Remember to respect the limits of the plan and to make this restriction clear in the user experience.
+
+- The app must run on android and/or iOS platform
+- 
 
 
 ### UI
