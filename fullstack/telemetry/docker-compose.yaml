@@ -1,0 +1,34 @@
+version: "3"
+
+services:
+  ql_broker:
+    image: eclipse-mosquitto
+    container_name: ql_broker
+    volumes:
+      - ./conf:/mosquitto/conf
+      - ./data:/mosquitto/data
+      - ./log:/mosquitto/log
+    networks:
+      - ql_net
+    ports:
+      - 1883:1883
+  
+  ql_device_1:
+    build:
+      context: .
+      dockerfile: Dockerfile.device
+    container_name: ql_device_1
+    networks:
+      - ql_net
+  
+  ql_device_2:
+    build:
+      context: .
+      dockerfile: Dockerfile.device
+    container_name: ql_device_2
+    networks:
+      - ql_net
+    
+networks:
+  ql_net:
+    driver: bridge
