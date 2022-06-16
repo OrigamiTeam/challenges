@@ -1,4 +1,4 @@
-# Fullstack-challenge
+# QL-challenge
 
 Welcome to this C++ and Python programming challenge.
 
