@@ -1,13 +1,13 @@
 # Fullstack-challenge
 
-Welcome to this fullstack Flutter + Elixir (or Python or Node.js) programming challenge.
+Welcome to this fullstack Flutter + Elixir programming challenge.
 
 We kindly ask you to read all steps below with atention in order to maximize the chances of success.
 
 The task consists of developing an interaction with music playlists, respecting some rules accordingly to the plan payed by the user. The implementation is comprised of two applications:
 
 1) Mobile app in Flutter
-2) Elixir or Node.js or Python backend
+2) Elixir Phoenix backend
 
 ## Summary
 
@@ -18,7 +18,7 @@ The task consists of developing an interaction with music playlists, respecting 
 
 ## Task
 
-The time available is 72 hours to deliver the best software as possible guided by the importance of requirements described in the next section, respecting the 3Cs aspects of a software: consistency, completeness and correctness. Your challenge answser might be delivered through your personal repository account of your choice (GitHub, Gitlab, BitBucket, etc). Please send us the link when you finish.
+The time available is 7 days to deliver the best software as possible guided by the importance of requirements described in the next section, respecting the 3Cs aspects of a software: consistency, completeness and correctness. Your challenge answser might be delivered through your personal repository account of your choice (GitHub, Gitlab, BitBucket, etc). Please send us the link when you finish.
 
 ## Assessment Criteria
 
@@ -32,6 +32,7 @@ The analysis of the code will consider the following facets in decrescent order 
 - Extensibility
 - Manutenability
 - Nice formatting
+- Backend Deployment
 
 ### Optionals
 
@@ -41,7 +42,6 @@ The following points are optionals, but we would appreaciate to see some of it:
 - Comments
 - Exception handling
 - Use of tooling (like lint and CI/CD)
-- Deployment (delivering also a URL to access it)
 
 ## Business Rules
 
@@ -84,20 +84,21 @@ A backoffice is required for the `admin` to add new musics to the existing plans
 The main frontend is for the clients, where they can sign-in, see all musics available in the system and define which musics belongs to his/her playlist. Remember to respect the limits of the plan and to make this restriction clear in the user experience.
 
 - The app must run on android and/or iOS platform
-- 
 
+### Cloud Environment
+
+You are free to utilize any service available at AWS (like storaging, data bases, compute node instances, etc.) but at least one of them must be used and must be explained the reason of the choice in the backend README file.
 
 ### UI
 
 There is no specific requirements regarding UI. The main point is to think on the consequences of usability decisions. Some thoughts:
 
-- a table might be shown with available musics
+- a list might be shown with available musics
 - the playlist might be updated with drag and drop
 
 ### Backend
 
 There are some choices regarding the stack to be used on backend:
 
-- Might be developed with Node.js, Python or Elixir
 - Postgres as relational database will be a must
 - The API might be REST or GraphQL
